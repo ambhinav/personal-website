@@ -27,13 +27,13 @@ export default function Experience() {
     <Timeline align="alternate">
       <TimelineItem>
         <TimelineOppositeContent>
-          <Typography variant="body2" color="textSecondary">
-						2020 - Present
+          <Typography variant="body2" >
+						July 2020 - Present
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot>
-            <LaptopMacIcon />
+						<LaptopMacIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -42,14 +42,14 @@ export default function Experience() {
             <Typography variant="h6" component="h1">
 							Foodboys SG
             </Typography>
-						<Typography>Full Stack Developer</Typography>
+            <Typography>Freelance Fullstack Developer</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent>
-          <Typography variant="body2" color="textSecondary">
-						2020
+          <Typography variant="body2">
+						Jan 2020 - Jun 2020
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -63,7 +63,7 @@ export default function Experience() {
             <Typography variant="h6" component="h1">
 							Intra Technologies
             </Typography>
-						<Typography>Software Developer Intern</Typography>
+            <Typography>Software Developer Intern</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>

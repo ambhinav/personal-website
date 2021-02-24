@@ -1,5 +1,10 @@
 .App {
   text-align: center;
-  background-color: #eae7dc;
+  background-color: #333333;
   padding-top: 5vh;
+  color: white;
+}
+
+.App .sectionHeader {
+  color:#0081cb;
 }

@@ -6,13 +6,13 @@ function Projects() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true
   };
   return (
-    <div style={{backgroundColor: "#d8c3a5", borderRadius: "25px" }}>
+    <div style={{backgroundColor: "#272c34", borderRadius: "25px" }}>
         <Slider {...settings}>
         <div>
             <h3>Bengkala 2019</h3>

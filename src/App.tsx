@@ -14,17 +14,17 @@ function App() {
        >
         <About />
         <Grid item style={{ maxWidth: "1600px" }}>
-          <Typography variant="h3">Experience</Typography>
+          <Typography variant="h3" className="sectionHeader">Experience</Typography>
           <Divider style={{ margin: "20px" }}></Divider>
           <Experience />
         </Grid>
         <Grid item style={{ maxWidth: "1200px" }}>
-          <Typography variant="h3">Projects</Typography>
+          <Typography variant="h3" className="sectionHeader">Projects</Typography>
           <Divider style={{ margin: "20px" }}></Divider>
           <Projects />
         </Grid>
          <Grid item style={{ maxWidth: "1200px" }}>
-          <Typography variant="h3">Skills</Typography>
+          <Typography variant="h3" className="sectionHeader">Skills</Typography>
           <Divider style={{ margin: "20px" }}></Divider>
           <Skills />
         </Grid>

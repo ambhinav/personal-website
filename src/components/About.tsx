@@ -10,9 +10,9 @@ import EmailIcon from '@material-ui/icons/Email';
 function About() {
 	var bio = "Hello! I am a penultimate year computer science student from the National University of Singapore, specialising in Artificial Intelligence. I have worked in exciting startups as a software developer, specifically web applications. As someone who is constantly trying to improve their skillset, I love learning about new technologies. I am currently seeking an opportunity to improve my knowledge in Software Engineering.";
   return (
-		<Grid container item direction="column" justify="space-between" alignItems="center" className="About" spacing={5} style={{ maxWidth: '1000px' }}>
+		<Grid container item direction="column" justify="space-between" alignItems="center" spacing={5} style={{ maxWidth: '1000px' }}>
 			<Grid item xs={12}>
-				<Typography variant="h2">Hi! I'm Abhinav</Typography>
+				<Typography variant="h2" className="sectionHeader">Hi! I'm Abhinav</Typography>
 			</Grid>
 			<Grid item xs={12}>
 				<Avatar src={avatar} style={{ height: '250px', width: '250px' }}></Avatar>

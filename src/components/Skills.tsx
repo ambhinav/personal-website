@@ -74,7 +74,7 @@ function Skills() {
                         <img alt="Heroku" src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/heroku/heroku-plain.svg"></img>
                     </Grid>
                     <Grid item>
-                        <img alt="CircleC" src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/circleci.svg"></img>
+                        <img alt="CircleCI" src="https://raw.githubusercontent.com/file-icons/icons/16d8595d6d592a11d690384747e31101e15fc355/svg/CircleCI.svg"></img>
                     </Grid>
                     <Grid item>
                         <img alt="Postman" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"></img>
