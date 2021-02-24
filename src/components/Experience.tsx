@@ -7,16 +7,13 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    padding: '6px 16px',
+    padding: '10px 26px',
   },
   secondaryTail: {
     backgroundColor: theme.palette.secondary.main,
@@ -43,10 +40,9 @@ export default function Experience() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-							Foodboys SG - Full Stack Developer
+							Foodboys SG
             </Typography>
-            <Typography>-Worked with a passionate team in an exciting startup to design and understand the requirements for a food ordering platform</Typography>
-						<Typography>-Built the web application using Vue.JS and Google Cloud Platform</Typography>
+						<Typography>Full Stack Developer</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -65,10 +61,9 @@ export default function Experience() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-							Intra Technologies - Software Developer Intern
+							Intra Technologies
             </Typography>
-            <Typography>-Created various user and admin facing web applications using Node.JS and Vue.JS</Typography>
-            <Typography>-Used Google Cloud Platform's functions such as hosting, firestore and cloud functions</Typography>
+						<Typography>Software Developer Intern</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
