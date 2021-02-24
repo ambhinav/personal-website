@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker-build": "docker build --tag abhinavr-personal-website .",
+    "docker-run": "docker run -p 3000:8080 abhinavr-personal-website"
   },
   "eslintConfig": {
     "extends": [
