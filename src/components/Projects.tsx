@@ -12,7 +12,7 @@ function Projects() {
     autoplay: true
   };
   return (
-    <div style={{backgroundColor: "#7289da", borderRadius: "25px" }}>
+    <div style={{backgroundColor: "#d8c3a5", borderRadius: "25px" }}>
         <Slider {...settings}>
         <div>
             <h3>Bengkala 2019</h3>
