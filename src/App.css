@@ -1,4 +1,43 @@
-.App {
+.App .Intro {
+  background: url('./assets/space.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font: x-large;
+  font-weight: bold;
+  color: white;
+}
+
+.App .active {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  position: relative;
+}
+
+.App .active:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.App .active:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.App .Portfolio {
   text-align: center;
   background-color: #333333;
   padding-top: 5vh;
@@ -7,4 +46,10 @@
 
 .App .sectionHeader {
   color:#0081cb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
