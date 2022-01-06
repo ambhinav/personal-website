@@ -1,4 +1,3 @@
-import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
@@ -28,7 +27,28 @@ export default function Experience() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" >
-						July 2020 - Present
+						May 2021 - July 2021
+          </Typography>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot>
+						<LaptopMacIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Paper elevation={3} className={classes.paper}>
+            <Typography variant="h6" component="h1">
+              Development Bank of Singapore
+            </Typography>
+            <Typography>Software Engineer Intern</Typography>
+          </Paper>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <Typography variant="body2" >
+						July 2020 - Dec 2020
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>

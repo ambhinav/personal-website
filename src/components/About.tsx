@@ -1,4 +1,3 @@
-import React from 'react';
 import avatar from '../assets/profile.jpg';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
@@ -8,9 +7,9 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 
 function About() {
-	var bio = "Hello! I am a Computer Science student from the National University of Singapore, specialising in Artificial Intelligence. I have worked in exciting companies as a software developer, specifically as a Full Stack Engineer. As someone who is constantly trying to improve their skillset, I love learning about new technologies. I am currently seeking an opportunity to improve my knowledge in Software Engineering.";
+	var bio = "Hi! I'm an independent and curious programmer who loves learning and communicating my ideas. I am currently seeking a full-time role as a Software Engineer (Backend/Full-Stack). I enjoy playing the electric guitar and role-playing video games in my free time.";
   return (
-		<Grid container item direction="column" justify="space-between" alignItems="center" spacing={5} style={{ maxWidth: '80%', paddingTop: '5vh' }}>
+		<Grid container direction="column" alignItems="center" spacing={5} style={{ maxWidth: '80%', paddingTop: '5vh' }}>
 			<Grid item xs={12}>
 				<Avatar src={avatar} style={{ height: '200px', width: '200px' }}></Avatar>
 			</Grid>

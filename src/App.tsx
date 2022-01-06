@@ -16,12 +16,10 @@ function App() {
       </div>
       <div className="Portfolio">
         <Grid
-          container direction="column" alignItems="center" spacing={10}
+          container direction="column" justify='center' alignItems="center" spacing={10}
         >
           <Element name="about">
-            <Grid container justify="center">
-              <About />
-            </Grid>
+            <About />
           </Element>
           <Grid item style={{ maxWidth: "100%" }} id="experience">
             <Typography variant="h3" className="sectionHeader">Experience</Typography>
