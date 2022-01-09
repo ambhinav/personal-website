@@ -47,27 +47,6 @@ export default function Experience() {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent>
-          <Typography variant="body2" >
-						July 2020 - Dec 2020
-          </Typography>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot>
-						<LaptopMacIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-							Foodboys SG
-            </Typography>
-            <Typography>Freelance Fullstack Developer</Typography>
-          </Paper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineOppositeContent>
           <Typography variant="body2">
 						Jan 2020 - Jun 2020
           </Typography>

@@ -1,6 +1,5 @@
 import { Divider, Grid, Typography } from '@material-ui/core';
 import { Element } from 'react-scroll'
-import React from 'react';
 import './App.css';
 import About from './components/About';
 import Experience from './components/Experience';
@@ -18,22 +17,24 @@ function App() {
         <Grid
           container direction="column" justify='center' alignItems="center" spacing={10}
         >
-          <Element name="about">
+          <Grid item id="about">
+            <Typography variant="h3" className="sectionHeader">Profile</Typography>
+            <Divider style={{ margin: "10px" }}></Divider>
             <About />
-          </Element>
-          <Grid item style={{ maxWidth: "100%" }} id="experience">
+          </Grid>
+          <Grid item id="experience">
             <Typography variant="h3" className="sectionHeader">Experience</Typography>
-            <Divider style={{ margin: "20px" }}></Divider>
+            <Divider style={{ margin: "10px" }}></Divider>
             <Experience />
           </Grid>
-          <Grid item style={{ maxWidth: "80%" }} id="projects">
+          <Grid item id="projects">
             <Typography variant="h3" className="sectionHeader">Projects</Typography>
-            <Divider style={{ margin: "20px" }}></Divider>
+            <Divider style={{ margin: "10px" }}></Divider>
             <Projects />
           </Grid>
-          <Grid item style={{ maxWidth: "80%" }} id="skills">
+          <Grid item id="skills">
             <Typography variant="h3" className="sectionHeader">Skills</Typography>
-            <Divider style={{ margin: "20px" }}></Divider>
+            <Divider style={{ margin: "10px" }}></Divider>
             <Skills />
           </Grid>
         </Grid>

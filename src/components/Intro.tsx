@@ -4,6 +4,7 @@ import { Link } from 'react-scroll'
 function Intro() {
     return (
           <Grid container direction="column" style={{ padding: "10vw"}}>
+            {/*
             <Grid item xs={12}>
               <Hidden mdDown>
                 <Typography variant="h1">ABHINAV</Typography>
@@ -20,11 +21,13 @@ function Intro() {
                 <Typography variant="h2">RAMNATH</Typography>
               </Hidden>
             </Grid>
+            */}
+            <Typography variant="h3">Hi, I'm Abhinav!</Typography>
             <Grid container item style={{ paddingTop: "20px" }}>
               <nav>
                 <Grid container item justify="center" spacing={4}>
                     <Grid item>
-                      <Link className="active" to="about" spy={true} smooth={true} duration={500}>ABOUT</Link>
+                      <Link className="active" to="about" spy={true} smooth={true} duration={500}>PROFILE</Link>
                     </Grid>
                     <Grid item>
                       <Link className="active" to="experience" spy={true} smooth={true} duration={500}>EXPERIENCE</Link>

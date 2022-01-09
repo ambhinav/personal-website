@@ -1,3 +1,7 @@
+.App {
+  overflow: hidden
+}
+
 .App .Intro {
   background: url('./assets/space.jpg');
   height: 100vh;
@@ -5,7 +9,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font: x-large;
   font-weight: bold;
   color: white;
 }
@@ -46,10 +49,4 @@
 
 .App .sectionHeader {
   color:#0081cb;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
 }

@@ -7,25 +7,25 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 
 function About() {
-	var bio = "Hi! I'm an independent and curious programmer who loves learning and communicating my ideas. I am currently seeking a full-time role as a Software Engineer (Backend/Full-Stack). I enjoy playing the electric guitar and role-playing video games in my free time.";
+  var bio = "Hi, welcome to my porfolio! I'm an independent and curious programmer who loves learning and communicating my ideas. I am currently seeking a full-time role as a Software Engineer (Backend/Full-Stack). I enjoy playing the electric guitar and role-playing video games in my free time :)";
   return (
-		<Grid container direction="column" alignItems="center" spacing={5} style={{ maxWidth: '80%', paddingTop: '5vh' }}>
-			<Grid item xs={12}>
-				<Avatar src={avatar} style={{ height: '200px', width: '200px' }}></Avatar>
+		<Grid container direction="column" spacing = {5} style={{maxWidth: '700px', padding: '5vw'}}>
+			<Grid item xs={12} justify="center">
+				<Typography variant="body1">{ bio }</Typography>
 			</Grid>
-			<Grid container item xs={12} md={4} direction="row" justify="space-around" spacing={2}>
-				<Grid item xs={4}>
+			<Grid direction="row" container spacing={2} justify='center'>
+				<Grid item>
 					<GitHubIcon fontSize="large" onClick={event => window.open('https://github.com/ambhinav')} />
 				</Grid>
-				<Grid item xs={4}>
+				<Grid item>
 					<LinkedInIcon fontSize="large" onClick={event => window.open('https://linkedin.com/in/abhinav-ramnath')}/>
 				</Grid>
-				<Grid item xs={4}>
+				<Grid item>
 					<EmailIcon fontSize="large" onClick={event => window.location.href = 'mailto:ambhinav@yahoo.com'} />
 				</Grid>
 			</Grid>
 			{/* Mobile friendly bio */}
-			<Hidden mdDown>
+			{/* <Hidden mdDown>
 				<Grid item xs={12} style={{ maxWidth: '50%' }}>
 					<Typography variant="body1">{ bio }</Typography>
 				</Grid>
@@ -34,7 +34,7 @@ function About() {
 				<Grid item xs={12}>
 					<Typography variant="body1">{ bio }</Typography>
 				</Grid>
-			</Hidden>
+			</Hidden> */}
 		</Grid>
   );
 }
